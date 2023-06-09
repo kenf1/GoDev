@@ -23,7 +23,8 @@
 		"vscode": {
 			"extensions": [
 				"golang.go",
-				"formulahendry.code-runner"
+				"formulahendry.code-runner",
+				"shd101wyy.markdown-preview-enhanced"
 			]
 		}
 	}

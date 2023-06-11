@@ -2,7 +2,7 @@
 
 <br>
 
-Learn Go by working on projects
+Learn Go by working on projects of gradually increasing difficulty/complexity.
 
 ***Note***: Entire repo can be built and run as a dev Docker container.
 
@@ -12,3 +12,4 @@ Learn Go by working on projects
 |---|---|
 |Intro|Print "Hello world" and build to multiple OS + architecture|
 |basic_cli|Build basic cli app with subcommands|
+|Scrape & Scrape1|Scrape site content with colly & save to json|

@@ -25,10 +25,14 @@
 				"golang.go",
 				"formulahendry.code-runner",
 				"shd101wyy.markdown-preview-enhanced"
-			]
+			],
+			"settings": {
+				"code-runner.enableAppInsights": false
+			}
 		}
 	}
 
 	// Uncomment to connect as an existing user other than the container default. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "devcontainer"
 }
+

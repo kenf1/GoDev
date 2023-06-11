@@ -11,3 +11,4 @@ Learn Go by working on projects
 |Folder Name|Brief description|
 |---|---|
 |Intro|Print "Hello world" and build to multiple OS + architecture|
+|basic_cli|Build basic cli app with subcommands|

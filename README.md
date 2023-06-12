@@ -13,3 +13,8 @@ Learn Go by working on projects of gradually increasing difficulty/complexity.
 |Intro|Print "Hello world" and build to multiple OS + architecture|
 |basic_cli|Build basic cli app with subcommands|
 |Scrape & Scrape1|Scrape site content with colly & save to json|
+|Ittf Rankings|Exercise to convert [Ittf-Autoscrape](https://github.com/kenf1/ittf-autoscrape) script to Go|
+
+### Issues
+
+- unable to install [colly](https://github.com/gocolly/colly) with Dockerfile, have to manually install in container

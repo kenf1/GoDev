@@ -8,12 +8,21 @@ Learn Go by working on projects of gradually increasing difficulty/complexity.
 
 ### Contents
 
+#### Learn
+
 |Folder Name|Brief description|
 |---|---|
 |Intro|Print "Hello world" and build to multiple OS + architecture|
 |basic_cli|Build basic cli app with subcommands|
 |Scrape & Scrape1|Scrape site content with colly & save to json|
+
+#### Practice
+
+|Folder Name|Brief description|
+|---|---|
+|Go-Exercises|Work through practice problems from [golangr](https://golangr.com/exercises)|
 |Ittf Rankings|Exercise to convert [Ittf-Autoscrape](https://github.com/kenf1/ittf-autoscrape) script to Go|
+|~~pdf-cli~~|~~Script to split pdf into separate images, concept from [SplitPDF](https://github.com/kenf1/SplitPDF)~~|
 
 ### Issues
 

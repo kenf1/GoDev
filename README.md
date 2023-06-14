@@ -10,6 +10,8 @@ Learn Go by working on projects of gradually increasing difficulty/complexity.
 
 #### Learn
 
+~~Strikethrough~~ entries in table below indicates work in progress or not working.
+
 |Folder Name|Brief description|
 |---|---|
 |Intro|Print "Hello world" and build to multiple OS + architecture|
@@ -23,6 +25,8 @@ Learn Go by working on projects of gradually increasing difficulty/complexity.
 |Go-Exercises|Work through practice problems from [golangr](https://golangr.com/exercises)|
 |Ittf Rankings|Exercise to convert [Ittf-Autoscrape](https://github.com/kenf1/ittf-autoscrape) script to Go|
 |~~pdf-cli~~|~~Script to split pdf into separate images, concept from [SplitPDF](https://github.com/kenf1/SplitPDF)~~|
+|qr_generator|Create standalone app to generate qr code|
+|~~qr_reader~~|~~Create standalone app to read qr code~~|
 
 ### Issues
 

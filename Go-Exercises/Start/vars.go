@@ -29,8 +29,6 @@ func main() {
 		// fmt.Println(yr)
 
 		birth_yr := yr - age_num
-		//sep into 2 lines to avoid converting birth_yr back to string
-		fmt.Println("Based on the age you entered, you were born on:")
-		fmt.Println(birth_yr)
+		fmt.Println("Based on the age you entered, you were born on: " + strconv.Itoa(birth_yr))
 	}
 }

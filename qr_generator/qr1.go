@@ -15,15 +15,21 @@ func main() {
 
 	//prompt user for qr content
 	fmt.Println("Enter text to encode:")
-	content, _ := reader.ReadString('\n')
+	content, err := reader.ReadString('\n')
+	if err != nil {
+		log.Fatal(err)
+	}
 
 	//prompt user for qr file name
 	fmt.Println("Enter file name (include file extension):")
-	file_name, _ := reader.ReadString('\n')
+	file_name, err := reader.ReadString('\n')
+	if err != nil {
+		log.Fatal(err)
+	}
 	file_name1 := strings.Replace(file_name, "\n", "", -1)
 
 	//create qr code
-	err := qrcode.WriteFile(content, qrcode.Medium, 512, file_name1)
+	err = qrcode.WriteFile(content, qrcode.Medium, 512, file_name1)
 	if err != nil {
 		log.Fatal(err)
 	} else {

@@ -2,7 +2,7 @@
 
 <br>
 
-Learn Go by working on projects of gradually increasing difficulty/complexity.
+Learn Golang by working on projects of gradually increasing difficulty/complexity.
 
 ***Note***: Entire repo can be built and run as a dev Docker container.
 
@@ -23,6 +23,7 @@ Test code/new frameworks from working examples.
 |~~pdf-cli~~|~~Script to split pdf into separate images, concept from [SplitPDF](https://github.com/kenf1/SplitPDF)~~|
 |qr_generator|Create standalone app to generate qr code|
 |~~qr_reader~~|~~Create standalone app to read qr code~~|
+|goGui|Build and run native GUI applications using Fyne package|
 
 ### Issues
 

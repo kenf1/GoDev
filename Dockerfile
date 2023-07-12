@@ -1,4 +1,4 @@
-FROM golang:1.20.5-alpine3.18
+FROM golang:1.20.6-alpine3.18
 RUN apk add --no-cache bash
 
 ENV GOPATH /go
